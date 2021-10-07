@@ -1,0 +1,144 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 20vh;
+  min-height: 80px;
+  color: white;
+  background-color: #006d77;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.messageDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1100px;
+  padding: 20px;
+  margin: auto;
+}
+
+.messageContainer {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.textCard {
+  border: 4px solid #006d77;
+  background-color: #edf6f9;
+  border-radius: 20px;
+  min-width: 400px;
+  min-height: 200px;
+  width: 100%;
+}
+
+.titleDiv {
+  background: #006d77;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 4px solid #006d77;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.infoPart {
+  margin-top: 10px;
+  width: 100%;
+  text-align: end;
+}
+
+.nameSpan {
+  color: #006d77;
+  font-weight: bold;
+}
+
+.button {
+  display: block;
+  background-color: #83c5be;
+  width: 150px;
+  height: 60px;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #006d77;
+  font-weight: bold;
+  color: #006d77;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+label {
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  height: 40px;
+  max-width: 800px;
+  width: 100%;
+  border-color: lightgrey;
+  outline: none;
+  border-radius: 8px;
+}
+
+#nameInput {
+  max-width: 400px;
+}
+
+#textInput {
+  height: 200px;
+  padding: 0px;
+  text-align: start;
+}

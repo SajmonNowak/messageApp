@@ -1,0 +1,27 @@
+<Div class="header">
+  <h1>Message Board</h1>
+  <p>Its litteraly what it says. A Board with Messages.</p>
+</Div>
+
+<div class="buttonContainer">
+<a class="button" href="new">Write Message</a>
+</div>
+
+  {{#each messages}}
+<div class="messageDiv">
+    <div class="textCard">
+      <div class="titleDiv">{{this.title}}</div>
+      <div class="messageDiv">
+        <p class="message">
+          {{this.text}}
+        </p>
+        </div>
+      </div>
+      <p class="infoPart">
+        written by
+        <span class="nameSpan">{{this.user}}</span>,
+        {{this.added}}
+      </p>
+    </div>
+</div>
+  {{/each}}
